@@ -78,6 +78,7 @@ function App() {
           Welcome to editorJS Caliche Testing
         </h1>
         <div id={holder}></div>
+
         <Button
           onClick={async () => {
             console.log(editorRef);
